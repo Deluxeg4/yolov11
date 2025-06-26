@@ -25,7 +25,7 @@ args = parser.parse_args()
 
 # Parse user inputs
 # กำหนดค่าคงที่สำหรับ Path ของไฟล์โมเดล YOLO (คุณสามารถเปลี่ยนเป็น Path โมเดลของคุณได้)
-model_path = "yolov8n.pt" 
+model_path = "50epochs.pt" 
 img_source = args.source
 # กำหนดค่าคงที่สำหรับ Confidence threshold ขั้นต่ำในการแสดงผลวัตถุที่ตรวจจับได้
 min_thresh = 0.5 
